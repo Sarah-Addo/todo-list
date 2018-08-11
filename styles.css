@@ -18,3 +18,57 @@
 
 
  }
+
+ #header {
+ 	margin-top:40px;
+ }
+
+#inputArea {
+	height:80px;
+	width:600px;
+	font-size:40px;
+}
+
+#list {
+	list-style-type: none;
+	margin-top:5px;
+	font-size:30px;
+
+}
+
+#list li {
+	width:600px;
+ 	padding: 12px 4px 12px 40px;
+ 	background-color:#fafafa;
+ 	 
+}
+
+#list li:nth-child(odd){
+	background-color: #f4f4f4;
+}
+
+#list li:hover {
+	text-decoration: line-through;
+}
+
+.close:hover {
+	text-decoration: none;
+}
+.close {
+	text-decoration: none;
+	font-size: 30px;
+	display:inline-block;
+	float:right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
