@@ -36,28 +36,31 @@
 
 }
 
-#list li {
-	width:600px;
- 	padding: 12px 4px 12px 40px;
- 	background-color:#fafafa;
- 	 
-}
 
-#list li:nth-child(odd){
+.listItem:nth-child(odd){
 	background-color: #f4f4f4;
 }
 
 .listItem {
-	padding: 12px 4px 12px 16px;
+	display:flex;
+	width:600px;
+ 	padding: 12px 4px 12px 40px;
+ 	background-color:#fafafa;
+		
 }
 
-.close {
-	margin-right:5px;
-  float:right;
-}
 
 .close:hover {
-	 background-color: #ff0000;
+	 font-size:32px;
+}
+
+.listText {
+	width:95%;
+	
+}
+
+.listText:hover {
+	text-decoration: line-through;
 }
 
 
