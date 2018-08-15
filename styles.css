@@ -51,7 +51,8 @@
 
 
 .close:hover {
-	 font-size:32px;
+	 font-size:31px;
+	 cursor:pointer;
 }
 
 .listText {
@@ -63,8 +64,10 @@
 	text-decoration: line-through;
 }
 
-
-
+.checked {
+ width:95%;
+  text-decoration: line-through;
+}
 
 
 

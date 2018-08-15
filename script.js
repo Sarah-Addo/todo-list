@@ -37,4 +37,16 @@ function addList() {
 	//resets the input field
 	document.getElementById("inputArea").value = '';
 
+	//when a list item is clicked it is crossed out
+	p.addEventListener("click", function checkItem() {
+		p.className = "checked";
+	});
+
+	span.addEventListener("click", function deleteItem() {
+
+		li.remove();
+	});
+
+
 }
+
